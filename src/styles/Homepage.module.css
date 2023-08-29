@@ -1,0 +1,80 @@
+.bannerWrapper {
+  background: url(/public/images/singer.jpg) center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperAlbum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffccff;
+  background: black;
+}
+.album {
+  background: url(/public/images/ploca.jpg) center center/cover;
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.album h2 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  color: white;
+}
+.album button {
+  background-color: black;
+  border: none;
+  padding: 2%;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+}
+.tour {
+  background-color: #ffccff;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour h2 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+}
+.tour ul {
+  list-style-type: none;
+}
+@media (max-width: 1200px) {
+  .album {
+    background: url(/public/images/ploca.jpg) no-repeat center/cover;
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .bannerWrapper {
+    background: url(/public/images/singer.jpg) center center/cover;
+    height: 70vh;
+    width: 100%;
+  }
+  .album {
+    background: url(/public/images/ploca.jpg) center center/cover;
+    height: 50vh;
+    width: 100%;
+  }
+}

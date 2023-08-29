@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  width: 80%;
+  padding: 10px;
+  gap: 10px;
+  text-decoration: none;
+}
+.wrapper a {
+  text-decoration: none;
+  color: #ffccff;
+  font-weight: bold;
+  text-transform: capitalize;
+}

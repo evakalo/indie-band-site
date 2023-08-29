@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.wrapper button {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+}
+@media (max-width: 1150px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+@media (max-width: 750px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 470px) {
+  .wrapper {
+    width: 90%;
+  }
+}

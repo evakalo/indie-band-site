@@ -74,7 +74,7 @@
   width: 100%;
   height: 100vh;
   background-color: #3eecac;
-  background-image: linear-gradient(10deg, #3ea9ec 0%, #ffccff 100%);
+  background-image: linear-gradient(0deg, #3ea9ec 0%, #ffccff 100%);
   display: flex;
   flex-direction: column;
   align-items: center;

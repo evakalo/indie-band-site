@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+
+.logo {
+  color: #ffccff;
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  margin: 0px;
+  padding: 20px;
+  width: 80%;
+}
+@media (max-width: 350px) {
+  .logo {
+    font-size: 35px;
+    width: 80%;
+  }
+}
+@media (max-width: 310px) {
+  .logo {
+    font-size: 30px;
+
+    width: 80%;
+  }
+}

@@ -1,14 +1,23 @@
 // import { SlArrowRight } from "react-icons/sl"; dodaj ako ces stavljati kategorije u burger bar
 import burgerStyles from "../styles/Burger.module.css";
 import { LuAlignRight, LuArrowLeftCircle } from "react-icons/lu";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 const BurgerNav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [changeStyle, setChangeStyle] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
+  let location = useLocation();
+  useEffect(() => {
+    if (location.pathname === "/merch") {
+      setChangeStyle(true);
+    } else {
+      setChangeStyle(false);
+    }
+  }, [location]);
   return (
     <nav
       className={`burgerStyles.wrapper open_sans.className`}
@@ -18,10 +27,10 @@ const BurgerNav = () => {
 
       {isMenuOpen && (
         <div className={burgerStyles.nav}>
-          <ul>
+          <ul className={changeStyle ? burgerStyles.backgroundChange : ""}>
             <LuArrowLeftCircle className={burgerStyles.arrow} />
             <Link to="/">
-              <li className={burgerStyles.underline}>Home</li>
+              <li>Home</li>
             </Link>
 
             <Link to="/merch">
@@ -29,7 +38,7 @@ const BurgerNav = () => {
             </Link>
 
             <Link to="/about">
-              <li className={burgerStyles.underline}>About</li>
+              <li>About</li>
             </Link>
           </ul>
         </div>

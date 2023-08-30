@@ -1,14 +1,9 @@
 import Logo from "./Logo";
+import layoutStyles from "../styles/Layout.module.css";
 import ResponsiveNav from "./ResponsiveNav";
 const Layout = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        width: "100%",
-        margin: "0px",
-      }}
-    >
+    <div className={layoutStyles.wrapper}>
       <Logo />
       <ResponsiveNav />
     </div>

@@ -24,7 +24,7 @@ const Merch = () => {
     <div>
       <div className={merchStyles.container}>
         <Layout />
-        {/* <h1 style={{ color: "white", textAlign: "center" }}>MERCH</h1> */}
+
         <div className={merchStyles.wrapperMerch}>
           {merch.map((item, index) => {
             return (

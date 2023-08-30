@@ -28,5 +28,6 @@
 @media (max-width: 470px) {
   .wrapper {
     width: 90%;
+    font-size: 15px;
   }
 }

@@ -29,16 +29,14 @@ const Merch = () => {
           {merch.map((item, index) => {
             return (
               <div key={index} className={merchStyles.box}>
-                <div>
-                  <div
-                    className={merchStyles.photo}
-                    style={{
-                      background: `url(${item.photo}) center center/cover`,
-                    }}
-                  />
-                  <h4>{item.name}</h4>
-                  <p>Price: {item.price}€ </p>
-                </div>
+                <div
+                  className={merchStyles.photo}
+                  style={{
+                    background: `url(${item.photo}) center center/cover`,
+                  }}
+                />
+                <h4>{item.name}</h4>
+                <p>Price: {item.price}€ </p>
               </div>
             );
           })}

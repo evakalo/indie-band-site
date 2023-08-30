@@ -1,9 +1,9 @@
 // import { SlArrowRight } from "react-icons/sl"; dodaj ako ces stavljati kategorije u burger bar
 import burgerStyles from "../styles/Burger.module.css";
 import { LuAlignRight, LuArrowLeftCircle } from "react-icons/lu";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 const BurgerNav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   // const [changeStyle, setChangeStyle] = useState(false);

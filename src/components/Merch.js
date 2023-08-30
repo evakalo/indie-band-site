@@ -31,8 +31,8 @@ const Merch = () => {
             alt="merch"
           />
           <div className={merchStyles.text}>
-            <h4>vinyl</h4>
-            <p>Price:20€ </p>
+            <h4>Tote</h4>
+            <p>Price: 20€ </p>
           </div>
         </div>
         <div className={merchStyles.box}>
@@ -42,8 +42,8 @@ const Merch = () => {
             alt="merch"
           />
           <div className={merchStyles.text}>
-            <h4>vinyl</h4>
-            <p>Price:20€ </p>
+            <h4>T shirt</h4>
+            <p>Price: 20€ </p>
           </div>
         </div>
         <div className={merchStyles.box}>
@@ -53,8 +53,8 @@ const Merch = () => {
             alt="merch"
           />
           <div className={merchStyles.text}>
-            <h4>vinyl</h4>
-            <p>Price:20€ </p>
+            <h4>EP</h4>
+            <p>Price: 30€ </p>
           </div>
         </div>
         <div className={merchStyles.box}>
@@ -64,8 +64,8 @@ const Merch = () => {
             alt="merch"
           />
           <div className={merchStyles.text}>
-            <h4>vinyl</h4>
-            <p>Price:20€ </p>
+            <h4>Pins</h4>
+            <p>Price: 30€ </p>
           </div>
         </div>
         {/* {merch.map((item, index) => {

@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 const BurgerNav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [changeStyle, setChangeStyle] = useState(false);
+  // const [changeStyle, setChangeStyle] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-  let location = useLocation();
-  useEffect(() => {
-    if (location.pathname === "/merch") {
-      setChangeStyle(true);
-    } else {
-      setChangeStyle(false);
-    }
-  }, [location]);
+  // let location = useLocation();
+  // useEffect(() => {
+  //   if (location.pathname === "/merch") {
+  //     setChangeStyle(true);
+  //   } else {
+  //     setChangeStyle(false);
+  //   }
+  // }, [location]);
   return (
     <nav
       className={`burgerStyles.wrapper open_sans.className`}
@@ -27,7 +27,8 @@ const BurgerNav = () => {
 
       {isMenuOpen && (
         <div className={burgerStyles.nav}>
-          <ul className={changeStyle ? burgerStyles.backgroundChange : ""}>
+          {/* <ul className={changeStyle ? burgerStyles.backgroundChange : ""}> */}
+          <ul>
             <LuArrowLeftCircle className={burgerStyles.arrow} />
             <Link to="/">
               <li>Home</li>

@@ -103,7 +103,7 @@ body {
   .container {
     height: 2500px;
 
-    background: url("../../public/images/neon.jpg") center center/cover;
+    /* background: url("../../public/images/neon.jpg") center center/cover; */
   }
   .box {
     height: 350px;

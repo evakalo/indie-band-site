@@ -17,7 +17,7 @@ const Home = () => {
       </section>{" "}
       <Parallax
         className={homepageStyles.parallax}
-        bgImage="/images/clouds2.jpg"
+        bgImage="/images/clouds2.webp"
         strength={600}
       >
         <section className={homepageStyles.tour}>

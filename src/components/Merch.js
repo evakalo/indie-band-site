@@ -29,7 +29,7 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/shirt4.jpg"
+                src="/images/shirt4.webp"
                 alt="t shirt"
               />
               <div className={merchStyles.text}>

@@ -1,4 +1,5 @@
 import tourStyles from "../styles/Tour.module.css";
+
 const Tour = () => {
   return (
     <>

@@ -33,7 +33,12 @@
 .nav a {
   text-decoration: none;
 }
-
+@media (hover: hover) {
+  .nav li:hover {
+    transition: color 300ms ease-in-out;
+    color: #ffccff;
+  }
+}
 .nav ul {
   display: none;
   width: 100%;

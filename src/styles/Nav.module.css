@@ -13,3 +13,10 @@
   font-weight: bold;
   text-transform: capitalize;
 }
+@media (hover: hover) {
+  .wrapper a:hover {
+    transform: scale(1.1);
+    transition: all 500ms;
+    color: #e094e0;
+  }
+}

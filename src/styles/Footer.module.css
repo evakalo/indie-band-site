@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 10px;
+}

@@ -9,8 +9,8 @@ const MainNav = () => {
       <Link to="/merch">
         <li>Merch </li>
       </Link>{" "}
-      <Link to="about">
-        <li>About</li>
+      <Link to="/contact">
+        <li>Contact</li>
       </Link>
     </ul>
   );

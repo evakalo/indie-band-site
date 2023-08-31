@@ -3,10 +3,10 @@ import layoutStyles from "../styles/Layout.module.css";
 import ResponsiveNav from "./ResponsiveNav";
 const Layout = () => {
   return (
-    <div className={layoutStyles.wrapper}>
+    <header className={layoutStyles.wrapper}>
       <Logo />
       <ResponsiveNav />
-    </div>
+    </header>
   );
 };
 export default Layout;

@@ -1,0 +1,48 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  /* background: url("/public/images/drums.jpg") center center/cover; */
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+}
+.textWrapper h1 {
+  font-size: 200px;
+}
+@media (hover: hover) {
+}
+@media (max-width: 1500px) {
+  .textWrapper h1 {
+    font-size: 150px;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .textWrapper {
+    padding: 3%;
+  }
+  .textWrapper h1 {
+    font-size: 100px;
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .textWrapper {
+    padding: 1%;
+    align-items: center;
+  }
+  .textWrapper h1 {
+    font-size: 100px;
+    width: 70%;
+    margin: 5px 0px 0px;
+  }
+}

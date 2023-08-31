@@ -9,7 +9,7 @@ const Contact = () => {
     <div className={contactStyles.wrapper}>
       <Parallax
         strength={500}
-        bgImage="images/drums.jpg"
+        bgImage="images/drums.webp"
         className={contactStyles.banner}
       >
         <Layout />{" "}

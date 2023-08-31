@@ -12,6 +12,41 @@
   justify-content: center;
   gap: 10px;
   align-items: center;
+  font-size: 17px;
+  padding: 10px 0px 0px;
+}
+.wrapper p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+@media (hover: hover) {
+  .icon:hover {
+    color: RGB(24, 119, 242);
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 300ms;
+  }
+  .icon2:hover {
+    color: rgb(208, 0, 255);
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 300ms;
+  }
+  .icon3:hover {
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 300ms;
+  }
+  .icon4:hover {
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 300ms;
+  }
 }
 @media (max-width: 450px) {
   .wrapper p {

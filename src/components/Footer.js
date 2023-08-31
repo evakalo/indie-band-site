@@ -3,23 +3,23 @@ import {
   BiLogoFacebookCircle,
   BiLogoInstagram,
   BiLogoSpotify,
-  BiLogoSoundcloud,
+  BiLogoYoutube,
 } from "react-icons/bi";
 const Footer = () => {
   return (
     <footer className={footerStyles.wrapper}>
       <ul className={footerStyles.socials}>
         <li>
-          <BiLogoFacebookCircle />
+          <BiLogoFacebookCircle className={footerStyles.icon} />
         </li>
         <li>
-          <BiLogoInstagram />
+          <BiLogoInstagram className={footerStyles.icon2} />
         </li>{" "}
         <li>
-          <BiLogoSpotify />
+          <BiLogoSpotify className={footerStyles.icon3} />
         </li>{" "}
         <li>
-          <BiLogoSoundcloud />
+          <BiLogoYoutube className={footerStyles.icon4} />
         </li>
       </ul>
       <p>All material ©The Runaways 2023. All rights reserved. </p>

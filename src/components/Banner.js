@@ -5,8 +5,9 @@ const MainPage = () => {
   return (
     <Parallax
       strength={600}
-      bgImage="/images/singer.jpg"
+      bgImage="/images/singer.webp"
       className={homepageStyles.bannerWrapper}
+      fetchpriority="high"
     >
       <Layout />
     </Parallax>

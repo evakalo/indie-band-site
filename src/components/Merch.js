@@ -8,8 +8,9 @@ const Merch = () => {
     <>
       <Parallax
         className={merchStyles.parallax}
-        bgImage="/images/neon.jpg"
+        bgImage="/images/neon.webp"
         strength={600}
+        fetchpriority="high"
       >
         <div className={merchStyles.container}>
           <Layout />
@@ -17,7 +18,7 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/tote2.jpg"
+                src="/images/tote2.webp"
                 alt="tote bag"
               />
               <div className={merchStyles.text}>
@@ -39,7 +40,7 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/vinly.jpg"
+                src="/images/vinly.webp"
                 alt="vinyl"
               />
               <div className={merchStyles.text}>
@@ -50,7 +51,7 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/pins.jpg"
+                src="/images/pins.webp"
                 alt="pins"
               />
               <div className={merchStyles.text}>

@@ -3,6 +3,7 @@ import Tour from "./Tour";
 import Video from "./Video";
 import homepageStyles from "../styles/Homepage.module.css";
 import { Parallax } from "react-parallax";
+
 import Footer from "./Footer";
 const Home = () => {
   return (

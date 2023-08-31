@@ -3,6 +3,7 @@ import contactStyles from "../styles/Contact.module.css";
 import { motion } from "framer-motion";
 
 import { Parallax } from "react-parallax";
+import Footer from "./Footer";
 const Contact = () => {
   return (
     <div className={contactStyles.wrapper}>
@@ -24,7 +25,7 @@ const Contact = () => {
           <h2>booking@runaway.com</h2>
         </div>
       </Parallax>
-      <div>neki tekst </div>
+      <Footer />
     </div>
   );
 };

@@ -7,6 +7,7 @@
 .banner {
   width: 100%;
   height: 100%;
+  padding-bottom: 20px;
 }
 .textWrapper {
   display: flex;
@@ -38,7 +39,8 @@
 @media (max-width: 390px) {
   .textWrapper {
     padding: 1%;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 20px;
   }
   .textWrapper h1 {
     font-size: 100px;

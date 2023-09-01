@@ -15,7 +15,7 @@ const Tour = () => {
       </div>
       <div className={tourStyles.wrapper}>
         <h3>Oct 8</h3>
-        <p>Gasometer, Wienna</p>
+        <p>Gasometer, Vienna</p>
         <button>Tickets</button>
       </div>
     </>

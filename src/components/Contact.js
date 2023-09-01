@@ -22,7 +22,7 @@ const Contact = () => {
             Get in Touch
           </motion.h1>
 
-          <h2>booking@runaway.com</h2>
+          <h2 className={contactStyles.email}>booking@runaway.com</h2>
         </div>
       </Parallax>
       <Footer />

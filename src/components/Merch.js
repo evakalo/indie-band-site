@@ -2,7 +2,6 @@ import Layout from "./Layout";
 import merchStyles from "../styles/Merch.module.css";
 import { Parallax } from "react-parallax";
 import Footer from "./Footer";
-
 const Merch = () => {
   return (
     <>
@@ -18,25 +17,14 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/tote2.webp"
-                alt="tote bag"
+                src="/images/casette.jpg"
+                alt="casette"
               />
               <div className={merchStyles.text}>
-                <h4>Tote</h4>
-                <p>Price: 20€ </p>
+                <h4>Tape</h4>
+                <p>Price: 30€ </p>
               </div>
-            </div>
-            <div className={merchStyles.box}>
-              <img
-                className={merchStyles.photo}
-                src="/images/shirt4.webp"
-                alt="t shirt"
-              />
-              <div className={merchStyles.text}>
-                <h4>T shirt</h4>
-                <p>Price: 20€ </p>
-              </div>
-            </div>
+            </div>{" "}
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
@@ -51,12 +39,24 @@ const Merch = () => {
             <div className={merchStyles.box}>
               <img
                 className={merchStyles.photo}
-                src="/images/pins.webp"
-                alt="pins"
+                src="/images/sticker-guitar.jpg"
+                alt="stickers"
+              />
+
+              <div className={merchStyles.text}>
+                <h4>Stickers</h4>
+                <p>Price: 20€ </p>
+              </div>
+            </div>
+            <div className={merchStyles.box}>
+              <img
+                className={merchStyles.photo}
+                src="/images/shirt-girl.jpg"
+                alt="t shirt"
               />
               <div className={merchStyles.text}>
-                <h4>Pins</h4>
-                <p>Price: 30€ </p>
+                <h4>T shirt</h4>
+                <p>Price: 20€ </p>
               </div>
             </div>
           </section>

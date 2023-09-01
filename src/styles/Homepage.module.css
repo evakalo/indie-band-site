@@ -18,6 +18,8 @@
 .album {
   background: url(/public/images/ploca.webp) center center/cover;
   height: 80vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   width: 50%;
   display: flex;
   align-items: center;
